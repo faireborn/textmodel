@@ -1,0 +1,8 @@
+[package]
+name = "nlptools"
+version = "0.1.0"
+edition = "2024"
+description = "A collection of NLP tools for text processing and analysis"
+
+[dependencies]
+clap = { version = "4.5.41", features = ["derive"] }
